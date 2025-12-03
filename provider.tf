@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "remote-state-devops-dev"
+    bucket       = "remote-state-dev"
     key          = "k8s-workstation"
     use_lockfile = true
     encrypt      = true
