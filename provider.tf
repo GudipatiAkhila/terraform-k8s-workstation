@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "remote-state-dev"
+    bucket       = "state-rem-86s"
     key          = "k8s-workstation"
     use_lockfile = true
     encrypt      = true
