@@ -5,6 +5,8 @@
       "Effect": "Allow",
       "Action": "cloudformation:*",
       "Resource": "*"
+
+
     },
     {
       "Effect": "Allow",
@@ -68,7 +70,8 @@
         "iam:UntagInstanceProfile",
         "iam:AddRoleToInstanceProfile",
         "iam:RemoveRoleFromInstanceProfile",
-        "iam:DeleteInstanceProfile"
+        "iam:DeleteInstanceProfile",
+        "iam:CreateServiceLinkedRole"
       ],
       "Resource": "*"
     },
