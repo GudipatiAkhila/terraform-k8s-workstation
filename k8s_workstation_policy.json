@@ -71,7 +71,14 @@
         "iam:AddRoleToInstanceProfile",
         "iam:RemoveRoleFromInstanceProfile",
         "iam:DeleteInstanceProfile",
-        "iam:CreateServiceLinkedRole"
+        "iam:CreateServiceLinkedRole",
+        "elasticloadbalancing:DescribeLoadBalancers",
+        "elasticloadbalancing:DescribeTags",
+        "elasticloadbalancing:DeleteLoadBalancer",
+        "elasticloadbalancing:DescribeListeners",
+        "elasticloadbalancing:DeleteListener",
+        "elasticloadbalancing:DescribeTargetGroups",
+        "elasticloadbalancing:DeleteTargetGroup"
       ],
       "Resource": "*"
     },
